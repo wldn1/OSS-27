@@ -1,8 +1,8 @@
 import streamlit as st
 from crawler import NewsCrawler
-from cleaner import TextCleaner
+from text_cleaner import TextCleaner
 from model import NewsSummarizer
-from utils import NewsUtils
+from Data_Manager import NewsUtils
 
 # 페이지 기본 설정
 st.set_page_config(page_title="3줄 뉴스 요약 봇", page_icon="📰")
