@@ -1,4 +1,4 @@
-rom transformers import PreTrainedTokenizerFast, BartForConditionalGeneration
+from transformers import PreTrainedTokenizerFast, BartForConditionalGeneration
 import torch
 
 class NewsSummarizer:
